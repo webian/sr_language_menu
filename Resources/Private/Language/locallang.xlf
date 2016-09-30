@@ -16,7 +16,7 @@
 				<source>Go</source>
 			</trans-unit>
 			<trans-unit id="translationNotAvailable" xml:space="preserve">
-				<source>This page is not available in %1$s</source>
+				<source>%1$s</source>
 			</trans-unit>
 			<trans-unit id="pi1_title" xml:space="preserve">
 				<source>Language Selection</source>

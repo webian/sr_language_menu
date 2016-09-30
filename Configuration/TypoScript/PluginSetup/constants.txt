@@ -1,7 +1,7 @@
 plugin.tx_srlanguagemenu {
 
     # cat=plugin.tx_srlanguagemenu//05; type=options[LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.languageTitle.I.0=0,LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.languageTitle.I.1=1,LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.languageTitle.I.2=2,LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.languageTitle.I.3=3]; label= LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.languageTitle.constants
-	languageTitle = 0
+	languageTitle = 2
 
     # cat=plugin.tx_srlanguagemenu/enable/01; type=boolean; label= Use the Web site language title: DEPRECATED - Use property languageTitle instead.
 	useSysLanguageTitle = 0
@@ -13,13 +13,13 @@ plugin.tx_srlanguagemenu {
 	useIsoLanguageCountryCode = 0
 
     # cat=plugin.tx_srlanguagemenu//01; type=string; label= Language ISO-2 code of default site language: Language ISO-2 code of site language when sys_language_uid = 0.
-	defaultLanguageISOCode = EN
+	defaultLanguageISOCode = IT
 
     # cat=plugin.tx_srlanguagemenu//02; type=string; label= Country ISO-2 code of default site language: Country ISO-2 code of site language when sys_language_uid = 0.
-	defaultCountryISOCode = 
+	defaultCountryISOCode = IT
 
     # cat=plugin.tx_srlanguagemenu//03; type=string; label= Title of the default site language: Language title when sys_language_uid = 0 and system language titles are used.
-	defaultLanguageTitle =
+	defaultLanguageTitle = Italiano
 
     # cat=plugin.tx_srlanguagemenu/file/02; type=file[png]; label= File name of the English language flag: All flags should be in the same directory as this one.
 	englishFlagFile = EXT:sr_language_menu/Resources/Public/Images/Flags/en.png
@@ -28,10 +28,10 @@ plugin.tx_srlanguagemenu {
 	languagesUidsList = 
 
     # cat=plugin.tx_srlanguagemenu//04; type=options[LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.layout.I.0=0,LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.layout.I.1=1,LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.layout.I.2=2]; label= LLL:EXT:sr_language_menu/Resources/Private/Language/locallang.xlf:settings.layout.constants
-	defaultLayout = 0
+	defaultLayout = 2
 
     # cat=plugin.tx_srlanguagemenu/enable/04; type=boolean; label= Hide selection if no alt languages: If enabled, the selection list or menu is hidden if no alternative languages are present on the current page. 
-	hideIfNoAltLanguages = 0
+	hideIfNoAltLanguages = 1
 
     # cat=plugin.tx_srlanguagemenu//07; type=string; label= Parameters that should not be forwarded: List of parameters that should not be forwarded when linking to another language.
 	removeParams = user,pass
@@ -58,7 +58,7 @@ plugin.tx_srlanguagemenu {
 	doNotLinkCurrent = 0
 
     # cat=plugin.tx_srlanguagemenu/enable/07; type=boolean; label= Show inactive languages: If enabled, languages for which there is no translation are shown in the language menu (except in dropdown list). 
-	showInactive = 1
+	showInactive = 0
 	
     # cat=plugin.tx_srlanguagemenu/enable/08; type=boolean; label= Do not link inactive languages: If enabled in the flags or list of links layout, the flags or names of inactive languages are not wrapped in a link.
 	doNotLinkInactive = 1
