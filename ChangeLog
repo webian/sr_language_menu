@@ -1,3 +1,27 @@
+2017-01-24  Stanislas Rolland  <typo3(arobas)sjbr.ca>
+
+	* Update requirements
+	* Update version to 6.4.1
+
+2017-01-07  Stanislas Rolland  <typo3(arobas)sjbr.ca>
+
+	* Cleanup extension configuration files
+	* Follow-up to #79187: Use TYPO3 8 DB API
+
+2017-01-06  Stanislas Rolland  <typo3(arobas)sjbr.ca>
+
+	* Resolves #79187: Use TYPO3 8 DB API
+	* Resolves #79188: Use registered icon in frontend
+	* Resolves #79189: Migrate extension icon to svg
+	* Resolves #76679: Wrong flag for chinese language
+	* Update version to 6.4.0
+
+2017-01-05  Stanislas Rolland  <typo3(arobas)sjbr.ca>
+
+	* Resolves #79176: Missing renderType on TCA select definition
+	* Resolves #79178: Migrate to LTS 7 icon factory
+	* Resolves #78340: Compatibility with TYPO3 version 8.x and require TYPO3 7 LTS
+
 2016-05-22  Stanislas Rolland  <typo3(arobas)sjbr.ca>
 
 	* Resolves #76096: Labels not working anymore after using the widget (Thanks to Makus Klein)
